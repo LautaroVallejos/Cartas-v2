@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <%- include('./partials/head.ejs') %>
+    <%- include('./partials/styles.ejs') %>
     <title>AstroPage</title>
     
 </head>
@@ -11,8 +12,13 @@
                 <a class="w-25 h-25" href="/">
                     <img class="rounded-circle p-3 w-100 h-100 float-left" src="https://thumbs.dreamstime.com/b/c%C3%ADrculo-del-zodiaco-con-s%C3%ADmbolos-de-la-astrolog%C3%ADa-en-el-estilo-ne%C3%B3n-132908601.jpg" alt="Responsive image" srcset="">
                 </a>   
-                <span class="titulo">Astropage</span>          
-            </div>        
+                <span class="titulo">Astropage</span> 
+                <div class="d-flex justify-content-end">
+                    <a class="nav-link" href="/chart-selector">Creador de cartas</a>
+                    <a class="nav-link" href="/list-selector">Lista de atributos</a>
+                    <a class="nav-link" href="/solar-revolution">Revolucion solar</a>
+                </div>        
+            </div>  
           </nav>
 </body>
 </html>
