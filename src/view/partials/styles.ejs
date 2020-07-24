@@ -1,4 +1,8 @@
 <style>
+    body{
+        background-color: lightpink;
+    }
+
     .navbar {
        background-color: #DEAAFF; 
        margin: 0;
@@ -16,6 +20,8 @@
         font-size: 3rem;
         padding-left: .2em;
         color: #450920;
+        margin-right: 5em;
+        text-shadow: 1px 3px 0px #6b251d, 1px 7px 5px rgba(171, 168, 168);
     }
 
     .container-links{
@@ -26,4 +32,60 @@
         color: $#a53860;
     }
 
+    .d-flex justify-content-end{
+        margin: .5em;
+    }
+
+    .nav-link{
+        display: flex;
+        border: 1px solid gray;
+        border-radius: .6em;
+        color: lightpink;
+        padding: .7em;
+        font-family: 'Merriweather Sans', sans-serif;
+        background-color: #A240FC;
+        margin: .5em;
+        text-shadow: 1px 3px 0px #6b251d, 1px 9px 5px rgba(171, 168, 168);
+        flex-wrap:nowrap;
+    }
+
+    .nav-link:hover{
+        background-color: #8D18FF;
+        color:silver;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 1), 0 1px 2px rgba(0, 0, 0, 1);
+    }
+
+    .image{
+        width: 12%;
+    }
+
+    .img-carta{
+        width: 100%;
+    }
+    
+    *{
+        text-decoration: none;
+    }
+
+    .card{
+       text-decoration: none;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 1), 0 1px 2px rgba(0, 0, 0, 1);
+    }
+
+    .card-body{
+        background-color: #D168FF;
+        text-decoration: none;
+    }
+
+    .card-title{
+        text-align: center;
+        text-shadow: 1px 3px 0px #6b251d, 1px 13px 5px goldenrod;
+        color: goldenrod;
+    }
+
+    .card-text{
+        font-family: 'Merriweather Sans', sans-serif; 
+        text-align: center;
+        color: black;
+    }
 </style>
