@@ -47,6 +47,7 @@
         margin: .5em;
         text-shadow: 1px 3px 0px #6b251d, 1px 9px 5px rgba(171, 168, 168);
         flex-wrap:nowrap;
+        align-self: center;
     }
 
     .nav-link:hover{
@@ -62,9 +63,20 @@
     .img-carta{
         width: 100%;
     }
+
+    .img-carta-l{
+        align-self: center;
+    }
+
+    .container{
+        margin: 2em;
+        padding-left: 2em ;
+        display: flex;
+        justify-items: center;
+    }
     
-    *{
-        text-decoration: none;
+    .navbar{
+        border-bottom: 2px solid black;
     }
 
     .card{
@@ -75,17 +87,25 @@
     .card-body{
         background-color: #D168FF;
         text-decoration: none;
+        border-top: 2px solid black;
     }
 
     .card-title{
         text-align: center;
         text-shadow: 1px 3px 0px #6b251d, 1px 13px 5px goldenrod;
         color: goldenrod;
+        text-decoration: none;
     }
 
     .card-text{
         font-family: 'Merriweather Sans', sans-serif; 
         text-align: center;
         color: black;
+        text-decoration: none;
+    }
+
+    .chart-creator:hover{
+        text-decoration: none;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 1), 0 1px 2px rgba(0, 0, 0, 1);
     }
 </style>
